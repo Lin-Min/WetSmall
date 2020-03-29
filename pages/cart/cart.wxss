@@ -1,0 +1,7 @@
+/* pages/cart/cart.wxss */
+.cart-head{
+  height: 100%;
+}
+.cart-head {
+  height: calc(100% - 90rpx);
+}

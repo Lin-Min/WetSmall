@@ -1,0 +1,27 @@
+<!--pages/products/child/w-rate-info/w-rate-info.wxml-->
+<view class="rate-info">
+  <view class="rate-head">
+    <view>宝贝评论</view>
+    <view>更多 >></view>
+  </view>
+
+  <view class="rate-user">
+    <image class="user-tx" src="{{rateInfo.user.avatar}}" />
+    <text class="user-name">{{rateInfo.user.uname}}</text>
+  </view>
+
+  <view class="rate-content">
+    <view>{{rateInfo.content}}</view>
+  </view>
+
+  <view class="user-order">
+    <text class="user-created">{{rateInfo.created}}</text>
+    <text class="user-style">{{rateInfo.style}}</text>
+  </view>
+
+  <view class="user-img">
+      <block wx:for="{{rateInfo.images}}" wx:key="{{index}}">
+        <image src="{{item}}" model="widthFix" />
+      </block>
+  </view>
+</view>

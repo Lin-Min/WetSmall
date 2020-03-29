@@ -1,0 +1,22 @@
+<!--pages/products/child/w-bottom-g/w-bottom-g.wxml-->
+<!-- 店铺操作页 -->
+<view class="bottom-g">
+  <view class="bottom-item">
+    <view class="bottom-left">
+      <image src="/assets/products/service.png" />
+      <view>客服</view>
+    </view>
+    <view class="bottom-left">
+      <image src="/assets/products/shop.png" />
+      <view>店铺</view>
+    </view>
+    <view class="bottom-left" catch:tap="handleImg">
+      <image src="{{url}}" />
+      <view>收藏</view>
+    </view>
+  </view>
+  <view class="bottom-item">
+    <view class="bottom-right add-cart" bind:tap="toAddCart">加入购物车</view>
+    <view class="bottom-right buy">购买</view>
+  </view>
+</view>

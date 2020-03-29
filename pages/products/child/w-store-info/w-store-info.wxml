@@ -1,0 +1,38 @@
+<!--pages/products/child/w-store-info/w-store-info.wxml-->
+<!-- 店铺信息 -->
+<view class="store-info">
+  <view class="store-title">
+    <image src="{{shopBlog.logo}}" />
+    <text>{{shopBlog.name}}</text>
+  </view>
+
+  <view class="store-content">
+    <view class="store-left">
+
+      <view class="content-item">
+        <view class="c-n">{{shopBlog.sells}}</view>
+        <view class="c-na">总销量</view>
+      </view>
+
+      <view class="content-item">
+          <view class="c-n">{{shopBlog.goodsCount}} </view>
+        <view class="c-na">全部宝贝 </view>
+      </view>
+
+    </view>
+
+    <view class="store-right">
+      <block wx:for="{{shopBlog.score}}" wx:key="{{index}}">
+      <view class="right-flex">
+      <view class="r-name">{{item.name}}</view>
+        <view class="r-score {{item.isBetter ? 'good' : 'less' }}">{{item.score}}</view>
+        <view class="r-bote {{item.isBetter ? 'good' : 'less' }}">{{item.isBetter ? '高' : '低'}}</view>
+      </view>
+      </block>
+    </view>
+  </view>
+
+  <view class="store-foot">
+    <button size="mini">进店逛逛</button>
+  </view>
+</view>

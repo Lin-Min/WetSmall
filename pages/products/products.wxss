@@ -1,0 +1,11 @@
+/* pages/products/products.wxss */
+.content{
+  height: calc(100% - 120rpx);
+}
+
+.c-nebu swiper{
+  height: 800rpx;
+}
+.product-backtop view{
+  bottom: 155rpx;
+}

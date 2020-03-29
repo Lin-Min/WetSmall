@@ -1,0 +1,50 @@
+/* pages/profile/child/w-head/w-head.wxss */
+.head{
+  background: #ff5777;
+  display: flex;
+  height: 180rpx;
+  position: relative;
+  padding: 15rpx 30rpx;
+  color: #fff;
+  
+}
+
+.aratar image{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 70rpx;
+  background: #f2f2f2;
+  vertical-align: middle;
+}
+.log-in{
+  vertical-align: middle;
+  margin-left: 30rpx;
+  
+}
+
+.log-in .log{
+  font-size: 36rpx;
+  margin-top: 18rpx;
+  line-height: 1.5;
+}
+
+.log-in .m-phone{
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+.m-phone image{
+  width: 36rpx;
+  height: 36rpx;
+  /* position:relative; */
+  vertical-align: middle;
+}
+.profile-ico{
+  position: absolute;
+  right: 30rpx;
+  margin-top: 30rpx;
+}
+
+.profile-ico image{
+  width: 60rpx;
+  height: 60rpx;
+}

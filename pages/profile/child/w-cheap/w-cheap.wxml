@@ -1,0 +1,23 @@
+<!--pages/profile/child/w-cheap/w-cheap.wxml-->
+<view class="cheap">
+  <view class="cheap-ye">
+    <text class="w-je">0.00</text>元
+    <view class="cheap-wdye">
+      <text>我的余额</text>
+    </view>
+  </view>
+
+  <view class="w-ge cheap-ye">
+    <text class="w-je">0</text>个
+    <view class="w-yh wd-yh cheap-wdye">
+      <text>我的优惠</text>
+    </view>
+  </view>
+
+  <view class="w-fen cheap-ye">
+    <text class="w-je">{{total}}</text>分
+    <view class="w-jf cheap-wdye">
+      <text>我的积分</text>
+    </view>
+  </view>
+</view>

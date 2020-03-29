@@ -1,0 +1,9 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+  <!-- 左侧 -->
+  <w-left  bind:leftClick="leftClick" categorys="{{categorys}}" />
+
+  <!--右侧  -->
+  <w-contents sub="{{catelists[currentIndex].sub}}" cat="{{catelists[currentIndex].cat}}" />
+</view>
+

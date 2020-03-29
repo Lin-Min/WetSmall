@@ -1,0 +1,17 @@
+/* pages/category/w-left/w-left.wxss */
+.w-flex{
+  height: 100%;
+  background: #f6f6f6;
+  font-size: 32rpx;
+}
+.w-flex .w-item{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+.active{
+  border-left: 10rpx solid #ff5777;
+  color: #ff5777;
+  background: #fff;
+  font-weight: 800;
+}

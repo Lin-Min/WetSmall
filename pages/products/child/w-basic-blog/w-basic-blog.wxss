@@ -1,0 +1,61 @@
+/* pages/products/child/w-basic-blog/w-basic-blog.wxss */
+.basic-blog{
+  font-size: 34rpx;
+  padding: 18rpx;
+  border-bottom: 14rpx solid #f2f2f2;
+}
+
+.basic-blog .basic-title{
+  margin: 16rpx auto;
+}
+.basic-price{
+  margin-bottom: 14rpx;
+}
+.basic-price .newPrice{
+  font-size: 40rpx;
+  color: #ff5777;
+  padding:0 10rpx;
+}
+.basic-price .oldPrice{
+  padding: 0 8rpx;
+  text-decoration: line-through;
+}
+
+.basic-price .discount{
+  background: #ff5777;
+  color: #fff;
+  font-size: 26rpx;
+  border-radius: 30%;
+  position: relative;
+  bottom: 20rpx;
+  margin-left: 6rpx;
+}
+.basic-columns{
+  display: flex;
+  padding: 0 20rpx;
+  justify-content: space-between;
+  padding-bottom: 18rpx;
+  border-bottom: 1px solid rgba(200, 200, 200, .6);
+}
+
+.basic-columns .item{
+  font-size: 26rpx;
+  text-align: center;
+}
+.basic-services{
+  display: flex;
+  justify-content: space-between;
+}
+.services{
+  padding: 20rpx 0;
+}
+.services .ser-icon{
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 8rpx;
+}
+
+.services .ser-name{
+  font-size: 24rpx;
+  text-align: center;
+}

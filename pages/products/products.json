@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "w-bottom-g": "./child/w-bottom-g/w-bottom-g",
+    "w-basic-blog": "./child/w-basic-blog/w-basic-blog",
+    "w-store-info": "./child/w-store-info/w-store-info",
+    "w-detail-info": "./child/w-detail-info/w-detail-info",
+    "w-param-blog": "./child/w-param-blog/w-param-blog",
+    "w-rate-info": "./child/w-rate-info/w-rate-info",
+    "w-recommends": "./child/w-recommends/w-recommends",
+    "w-swiper": "/components/w-swiper/w-swiper",
+    "w-back-top": "/components/w-back-top/w-back-top"
+  },
+  "navigationBarTitleText": "商品详情"  
+}

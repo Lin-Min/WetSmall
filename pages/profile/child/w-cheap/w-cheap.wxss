@@ -1,0 +1,26 @@
+/* pages/profile/child/w-cheap/w-cheap.wxss */
+.cheap{
+  height: 180rpx;
+  display: flex;
+  background: #f8f8f8;
+  font-size: 36rpx;
+  justify-content: space-between;
+}
+
+.cheap .cheap-ye{
+  padding: 50rpx 0;
+  width: 33%;
+  text-align: center;
+  background: #fff;
+
+}
+.cheap-ye .w-je{
+  color: #ff5383;
+  font-size: 40rpx;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.cheap .w-ge{
+  vertical-align: middle;
+}

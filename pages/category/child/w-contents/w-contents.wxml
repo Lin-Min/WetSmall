@@ -1,0 +1,18 @@
+<!--pages/category/child/w-contents/w-contents.wxml-->
+<scroll-view class="content" scroll-top='{{topNum}}' bindscroll="scrollToupper" scroll-y>
+  <view class="sub">
+    <block wx:for="{{sub}}" wx:key="{{index}}">
+      <view class="sub-item">
+        <image src="{{item.image}}"  mode="widthFix"/>
+        <view>{{item.title}}</view>
+      </view>
+    </block>
+  </view>
+  <view class="foot">
+    <w-goods goods="{{cat}}" />
+  </view>
+
+  <!-- 回到顶部 -->
+  <w-back-top wx:if="{{showLower}}" catch:tap="backtap" />
+ 
+</scroll-view>

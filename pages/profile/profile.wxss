@@ -1,0 +1,8 @@
+/* pages/profile/profile.wxss */
+.profile{
+  height: 100%
+}
+.btn{
+  margin: 20rpx auto;
+  width: 90%;
+}

@@ -1,0 +1,19 @@
+<!--我的 - 头部-->
+<view class="head">
+  <view class="aratar">
+    <image src="{{userData.userPic}}" />
+  </view>
+
+  <view class="log-in">
+    <view class="log" bindgetuserinfo="getUserInfo" >{{userData.nickName}}</view>
+    <view class="m-phone">
+      <image src="/assets/profile/phone.png" />
+      <text>暂无绑定手机号</text>
+    </view>
+  </view>
+
+  <view class="profile-ico">
+    <image src="/assets/common/arrow-right.png" />
+  </view>
+
+</view>

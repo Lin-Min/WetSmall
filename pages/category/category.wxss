@@ -1,0 +1,17 @@
+/* pages/category/category.wxss */
+.category{
+  height: 100%;
+  display: flex;
+}
+.category w-left{
+  width: 30%;
+
+}
+.category w-contents{
+  width: 70%;
+}
+.wbt{
+  z-index: 1000
+}
+
+

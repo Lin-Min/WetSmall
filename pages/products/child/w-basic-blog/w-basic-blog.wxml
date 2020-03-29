@@ -1,0 +1,27 @@
+<!--pages/products/child/w-basic-blog/w-basic-blog.wxml-->
+<!-- 店铺标题等信息 -->
+<view class="basic-blog">
+  <view class="basic-title">{{baseBlog.title}}</view>
+  <view class="basic-price">
+    <text class="newPrice">{{baseBlog.newPrice}}</text>
+    <text class="oldPrice">{{baseBlog.oldPrice}}</text>
+    <text class="discount">{{baseBlog.discount}}</text>
+  </view>
+
+  <view class="basic-columns">
+    <block wx:for="{{baseBlog.columns}}" wx:key="{{index}}">
+      <view class="item">{{item}}</view>
+    </block>
+  </view>
+
+  <view class="basic-services">
+    <block wx:for="{{baseBlog.services}}" wx:key="{{index}}">
+      <block wx:if="{{index !== 0}}">
+        <view class="services">
+          <image class="ser-icon" src="{{item.icon}}" />
+          <text class="ser-name">{{item.name}}</text>
+        </view>
+      </block>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<!--pages/category/w-left/w-left.wxml-->
+<scroll-view class="w-flex" scroll-y>
+<block wx:for="{{categorys}}" wx:key="{{index}}">
+<view class="w-item {{index == currentIndex ? 'active': ''}}" bind:tap="handleClick" data-index="{{index}}">
+{{item.title}}
+</view>
+</block>
+</scroll-view>

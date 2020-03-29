@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "w-head": "./child/w-head/w-head",
+    "w-cheap": "./child/w-cheap/w-cheap",
+    "w-foots": "./child/w-foots/w-foots"
+  },
+  "navigationBarTitleText": "我的"
+  
+  
+}

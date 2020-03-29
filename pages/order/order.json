@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "w-order-item": "./child/w-order-item/w-order-item"
+  }
+}

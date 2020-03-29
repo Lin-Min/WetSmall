@@ -1,0 +1,6 @@
+<!--pages/waitorder/waitorder.wxml-->
+<view class="order">
+  <scroll-view scroll-y>
+    <w-order-item order="{{order}}" bind:handleSubmit="handleSubmit" />
+  </scroll-view>
+</view>

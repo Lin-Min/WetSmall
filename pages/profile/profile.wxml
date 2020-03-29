@@ -1,0 +1,11 @@
+<!--pages/profile/profile.wxml-->
+<view class="profile" >
+<!-- 用户头部信息  -->
+<w-head userData="{{userData}}" />
+<!-- 优惠信息 -->
+<w-cheap total="{{total}}" />
+<!-- 信息 -->
+<w-foots fots="{{listFoots}}" />
+<w-foots fots="{{listBott}}" />
+<button  class="btn" type="primary" catch:tap="backLogin">退出登录</button>
+</view>

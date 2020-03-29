@@ -1,0 +1,24 @@
+<view class="page">
+    <view class="weui-msg">
+        <view class="weui-msg__icon-area">
+            <icon type="success" size="64"></icon>
+        </view>
+        <view class="weui-msg__text-area">
+            <view class="weui-msg__title">购买成功</view>
+            <view class="weui-msg__desc">商家正在为你装货，请耐心等待,不要着急哦,<navigator url="./home/home" class="weui-msg__link">返回首页再看看</navigator></view>
+        </view>
+        <view class="weui-msg__opr-area">
+            <view class="weui-btn-area">
+                <button class="weui-btn" type="primary" bind:tap="handBackCart">返回</button>
+            </view>
+        </view>
+        <view class="weui-msg__extra-area">
+            <view class="weui-footer">
+                <view class="weui-footer__links">
+                    <navigator url="" class="weui-footer__link">购物街</navigator>
+                </view>
+                <view class="weui-footer__text">Copyright © 2019-2026 gouwu.jie</view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,20 @@
+<!--pages/products/products.wxml-->
+<scroll-view class="content" scroll-top='{{topNum}}' bindscroll="scrollToupper" scroll-y>
+<!-- 商品图 -->
+<w-swiper class="c-nebu" lists="{{topImages}}" />
+<!-- 商品标题等 -->
+<w-basic-blog baseBlog="{{baseBlog}}" />
+<!-- 用户评论 -->
+<w-rate-info rateInfo="{{rateInfo}}" />
+<!-- 店铺信息 -->
+<w-store-info shopBlog="{{shopBlog}}" />
+<!-- 商品展示信息图 -->
+<w-detail-info detailInfo="{{ detailInfo }}" />
+<!-- 尺码信息 -->
+<w-param-blog paramBlog="{{paramBlog}}" />
+<!-- 商品推荐信息 -->
+<w-recommends recommends="{{recommends}}" />
+  <!-- 回到顶部 -->
+  <w-back-top class="product-backtop" wx:if="{{showLower}}" catch:tap="backtap" />
+</scroll-view>
+<w-bottom-g class="bottom-value" bind:addCart="toAddCart" />

@@ -1,0 +1,27 @@
+<!--pages/products/child/w-param-blog/w-param-blog.wxml-->
+<view class="param">
+<!-- 商品材质等信息 -->
+  <view class='info'>
+    <block wx:for="{{paramBlog.infos}}" wx:key="index">
+      <view class="info-item row">
+        <view class='in-key'>{{item.key}}</view>
+        <view class='in-value'>{{item.value}}</view>
+      </view>
+    </block>
+  </view>
+  <!-- 商品尺码信息 -->
+  <view class="param-blog">
+    <block wx:for="{{paramBlog.sizes}}" wx:for-item="blogItem" wx:for-index="blogIndex" wx:key="{{blogIndex}}">
+      <view class="param-size-cotent">
+        <block wx:for="{{blogItem}}" wx:for-item="sizeItem" wx:for-index="sizeIndex" wx:key="{{sizeIndex}}">
+          <view class="size-cotent row">
+            <block wx:for="{{sizeItem}}" wx:key="{{index}}">
+              <view class="item">{{item}}</view>
+            </block>
+          </view>
+        </block>
+      </view>
+    </block>
+  </view>
+
+</view>

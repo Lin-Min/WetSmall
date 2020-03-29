@@ -1,0 +1,24 @@
+<!--pages/order/child/w-order-item/w-order-item.wxml-->
+<view class="content">
+      <block wx:for="{{order}}" wx:key="{{index}}" >
+        <view class="order-item">
+          <view class="order-flex">
+            <view class="img">
+              <image src="{{item.imageURL}}" mode="widFix"></image>
+            </view>
+            <view class="order-conetn">
+              <text class="title">{{item.title}}</text>
+              <text class="price">{{item.price}}</text>
+              <view class="count">×{{item.count}}</view>
+            </view>
+          </view>
+
+          <view class="sum">
+            <view>共{{item.count}}件商品 合计: ￥{{item.totalPrice}}</view>
+          </view>
+            <view class="btn">
+              <button size="mini" plain data-index="{{index}}"  bind:tap="handleSubmit" >查看详情</button>
+          </view>
+        </view>
+      </block>
+    </view>

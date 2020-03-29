@@ -1,0 +1,10 @@
+<!--pages/profile/child/w-foots/w-foots.wxml-->
+<view class="foots">
+  <block wx:for="{{fots}}" wx:key="{{index}}">
+    <view class="f-xdx">
+      <image class="f-img" src="/assets/profile/{{item.url}}" />
+      <text catch:tap="{{item.btn}}">{{item.into}}</text>
+      <image class="f-img1" src="/assets/common/{{item.href}}" />
+    </view>
+  </block>
+</view>

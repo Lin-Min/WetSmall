@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "w-icon-cart": "/components/w-icon-cart/w-icon-cart"
+  }
+}

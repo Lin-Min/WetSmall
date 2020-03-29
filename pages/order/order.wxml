@@ -1,0 +1,6 @@
+<!--pages/order/order.wxml-->
+<view class="order">
+  <scroll-view scroll-y>
+    <w-order-item order="{{order}}" />
+  </scroll-view>
+</view>

@@ -1,0 +1,41 @@
+/* pages/profile/child/w-foots/w-foots.wxss */
+.foots{
+  /* background: #f8f8f8; */
+  height: 298rpx;
+  /* padding-top: 30rpx; */
+  text-align: left;
+  border-top: 36rpx solid #f8f8f8;
+}
+.foots .f-xdx{
+  height: 100rpx;
+  vertical-align: middle;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  position: relative;
+  margin: 0 auto;
+  border-bottom: 2rpx solid #f8f8f8;
+
+}
+
+.f-xdx .f-img{
+  width: 48rpx;
+  height: 48rpx;
+  vertical-align: middle;
+  margin: 0 auto;
+  line-height: 100rpx;
+  text-align: center
+}
+
+.f-xdx .f-img1{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 0;
+  right: 40rpx;
+  bottom: 0;
+  margin: auto;
+}
+
+.f-xdx .f-img{
+  padding:0 20rpx;
+}

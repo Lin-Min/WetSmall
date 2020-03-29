@@ -1,0 +1,41 @@
+/* pages/products/child/w-bottom-g/w-bottom-g.wxss */
+.bottom-g{
+  display: flex;
+  height: 120rpx;
+  padding-left: 14rpx;
+  box-shadow: 0 -1px 1px rgba(100, 100, 100, .2);
+}
+
+ .bottom-g .bottom-item{
+   display: flex;
+   flex: 1;
+ }
+ .bottom-item .bottom-left{
+   font-size: 28rpx;
+ }
+
+ .bottom-item .bottom-right{
+   line-height: 120rpx;
+ }
+
+ .bottom-left, .bottom-right{
+   flex: 1;
+   text-align: center;
+ }
+
+.bottom-left image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 16rpx;
+}
+.bottom-item .add-cart{
+  font-size: 32rpx;
+  background: #ffe817;
+}
+
+.bottom-item .buy{
+  font-size: 32rpx;
+  font-weight: 300;
+  background: #ff5777;
+  color: #fff;
+}

@@ -1,0 +1,69 @@
+/* pages/products/child/w-rate-info/w-rate-info.wxss */
+.rate-info{
+  border-bottom: 14rpx solid #f2f2f2;
+  padding: 26rpx;
+}
+.rate-info .rate-head{
+  display: flex;
+  justify-content: space-between;
+  font-size: 34rpx;
+  border-bottom: 1rpx solid #eee; 
+  padding: 30rpx 0rpx;
+  margin: 0 10rpx;
+
+}
+.rate-user{
+  padding: 20rpx 20rpx;
+  margin-top: 10rpx;
+}
+.rate-user .user-tx{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  border: 2rpx solid rgba(200, 200, 200, .7);
+  vertical-align: middle;
+}
+
+.rate-user .user-name{
+  margin-left: 30rpx;
+  font-size: 40rpx;
+  line-height: 1.5;
+}
+
+.rate-content{
+  height: 88rpx;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  text-indent: 1.5em;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient: vertical;
+}
+
+.user-order{
+  vertical-align: middle;
+  margin-top: 10rpx;
+}
+
+.user-order .user-created{
+  margin-right: 16rpx;
+}
+
+.user-order user-style{
+  margin: 0 10rpx;
+  justify-content: space-between;
+}
+.user-img{
+  display: flex;
+  margin-top: 20rpx;
+  justify-content: space-between;
+}
+
+.user-img image{
+  max-width: 32%;
+  height: 275rpx;
+  border-radius: 5%;
+}

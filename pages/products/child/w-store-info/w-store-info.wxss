@@ -1,0 +1,98 @@
+/* pages/products/child/w-store-info/w-store-info.wxss */
+.store-info{
+  padding:18rpx 16rpx 46rpx;
+  border-bottom: 16rpx solid #f2f2f2;
+}
+
+.store-info .store-title{
+  margin-top: 20rpx;
+}
+
+.store-title image{
+  width: 86rpx;
+  height: 86rpx;
+  border-radius: 50%;
+  border: 2rpx solid rgba(200, 200, 200, 0.7);
+  vertical-align: middle;
+}
+
+.store-title text{
+  margin-left: 18rpx;
+
+}
+.store-content{
+  display: flex;
+  margin: 40rpx 0;
+ 
+}
+.store-content .store-left{
+  flex: 1;
+  display: flex;
+  margin: 20rpx 0;
+  border-right: 2rpx solid rgba(200, 200, 200, 0.7);
+}
+.store-left .content-item{
+  flex: 1;
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.content-item .c-n{
+  font-size: 36rpx;
+  text-align: center;
+  line-height: 36rpx;
+
+}
+.content-item .c-na{
+ margin-top: 31rpx;
+  text-align: center;
+}
+
+.store-content .store-right{
+  flex: 1;
+  padding:0 10rpx;
+  text-align: center;
+
+}
+
+.store-right .right-flex{
+  display: flex;
+  font-size: 26rpx;
+  text-align: center;
+  margin-left:14rpx;
+  justify-content: space-between
+}
+
+.right-flex .r-name{
+  flex: 1;
+  width: 180rpx;
+  padding-top: 10rpx;
+}
+.right-flex .r-score{
+  flex: 1;
+  padding:10rpx 0 0;
+  margin-left: 4rpx;
+  text-align: center;
+
+}
+.right-flex .r-bote{
+  flex: 1;
+  padding-top: 10rpx;
+  text-align: center;
+}
+.store-foot{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.store-foot button{
+  padding: 8rpx 100rpx;
+  color: #7e7a7a;
+}
+.good {
+  color: #ff5777;
+}
+
+.less {
+  color: #5ea732;
+}

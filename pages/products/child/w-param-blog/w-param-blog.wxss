@@ -1,0 +1,40 @@
+/* pages/products/child/w-param-blog/w-param-blog.wxss */
+.param {
+  padding: 40rpx 30rpx;
+  font-size: 30rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+.info{
+  justify-content: space-between;
+  text-align: center
+}
+
+.info-item .in-key{
+  width: 160rpx;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+.info-item .in-value{
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #f55777;
+}
+.param-size-cotent{
+  margin: 0 40rpx;
+}
+.row {
+  display: flex;
+  height: 84rpx;
+  line-height: 84rpx; 
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.size-cotent .item{
+  flex: 1;
+  text-align: left;
+  vertical-align: middle;
+}

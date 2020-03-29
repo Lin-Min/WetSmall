@@ -1,0 +1,21 @@
+<!--pages/login/login.wxml-->
+<view class="login">
+  <view class="content">
+    <view class="login-img">
+      <image src="/assets/logo/logo.png" />
+    </view>
+    <view class="login-weichat" >
+      <button wx:if="{{canIUse}}" class="button" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" type="primary" openSetting plain>微信登录</button>
+      <view wx:else>请升级微信版本</view>
+    </view>
+    <view class="login-phone login-weichat">
+      <button class="button" plain>手机号登录</button>
+    </view>
+
+    <view class="login-phone-regist">手机号快速注册></view>
+    <view>
+    <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}"             background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+  </view>
+</view>

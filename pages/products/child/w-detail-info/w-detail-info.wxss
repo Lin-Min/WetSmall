@@ -1,0 +1,34 @@
+/* pages/products/child/w-detail-info/w-detail-info.wxss */
+.detail-info {
+  border-bottom: 14rpx solid #f4f4f4;
+}
+
+.header {
+  position: relative;
+  padding: 10rpx 30rpx;
+  font-size: 32rpx;
+}
+
+.header .line {
+  width: 190rpx;
+  border: 2rpx double rgb(133, 130, 130);
+  margin: 30rpx 0;
+  position: relative;
+}
+
+.header .desc{
+  line-height: 50rpx;
+  vertical-align: middle;
+}
+.header .end {
+  float: right;
+}
+
+.content .title {
+  margin: 50rpx 0 30rpx 30rpx;
+  font-size: 32rpx;
+}
+
+.content image {
+  width: 100%;
+}

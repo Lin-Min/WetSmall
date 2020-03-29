@@ -1,0 +1,13 @@
+<!--pages/cart/child/w-bottom-cart/w-bottom-cart.wxml-->
+<view class="w-bottom-cart">
+  <view class="cart-left">
+  <w-icon-cart class="cart-icon" isChecked="{{selected}}" />
+    <view>全选</view>
+  </view>
+
+  <view class="crt-cotent">
+    <view>总计: ￥{{price}}</view>
+  </view>
+
+  <view class="cart-count" catch:tap="handleSettle">结算({{counter}})</view>
+</view>
